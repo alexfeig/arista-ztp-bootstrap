@@ -17,7 +17,7 @@ def get_args():
                         type=str,
                         help='Switch username - must have privilege 15. Default is admin',
                         default='admin',
-                        required=True)
+                        required=False)
     parser.add_argument('-i', '--ip',
                         type=str,
                         help='Switch IP Addresses',
