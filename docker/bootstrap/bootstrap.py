@@ -24,13 +24,13 @@ from subprocess import call
 # Variables - set as required
 
 device_password = 'arista'  # Note: Leave this password unencrypted.
-ipam_url = 'http://ipam.home.lab/api/dcim/devices/?mac_address='
+ipam_url = 'http://ipam.arista.lab/api/dcim/devices/?mac_address='
 jenkins_username = 'admin'
 jenkins_password = 'arista'
-jenkins_base_url = 'http://172.16.50.5:8080/job/'
-jenkins_project = 'Ansible-Test'
-jenkins_token = 'foo'
-dns_server = '172.16.50.1'
+jenkins_base_url = 'http://192.168.1.11:8080/job/'
+jenkins_project = 'Arista-Day0'
+jenkins_token = 'arista'
+dns_server = '192.168.1.10'
 
 # Script
 

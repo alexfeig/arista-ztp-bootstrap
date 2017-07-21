@@ -1,6 +1,6 @@
 FROM nginx
 
-MAINTAINER Alex Feigenson
+MAINTAINER Alex Feigenson (alex.feigenson@gmail.com)
 
 EXPOSE 80
 
